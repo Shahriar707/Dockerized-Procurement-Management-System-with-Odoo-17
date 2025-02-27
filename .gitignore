@@ -1,0 +1,54 @@
+# Ignore Enterprise Code
+enterprise_file/
+procurement/
+
+# Ignore Custom Modules (Pulled from GitHub)
+addons/
+
+# Ignore Odoo Data & Configuration Files
+config/odoo.conf
+/odoo_data
+/odoo_db_data
+
+# Ignore Python Bytecode Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Log Files
+*.log
+logs/
+
+# Ignore Virtual Environments
+venv/
+.env
+.venv/
+
+# Ignore Compiled & Cache Files
+*.swp
+*.swo
+.DS_Store
+*.bak
+*.tmp
+*.cache
+
+# Ignore Docker Volumes
+volumes/
+odoo_db_data/
+odoo_data/
+
+# Ignore Build and Dependencies
+node_modules/
+*.tar.gz
+*.zip
+*.rar
+
+# Ignore VS Code, JetBrains, and IDE Files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Certbot and SSL Keys (If Using HTTPS)
+certbot/
+etc/letsencrypt/
